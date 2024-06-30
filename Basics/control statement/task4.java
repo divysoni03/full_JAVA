@@ -10,6 +10,22 @@ import java.util.Scanner;
 
 public class task4 {
     public static void main(String[]args){
-        
+        Scanner sc = new Scanner(System.in);
+        System.out.println("Input a number : ");
+        float num = sc.nextFloat();
+
+        if(num == 0){
+            System.out.println("Input number : " + num);
+            System.out.println("Number is Zero");
+        }
+        else if(num > 0){
+            System.out.println("Input number : " + num);
+            System.out.println("Number is positive");
+        }
+        else {
+            System.out.println("Input number : " + num);
+            System.out.println("Number is negative");
+        }
+        sc.close();
     }
 }   

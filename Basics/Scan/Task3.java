@@ -10,6 +10,8 @@ public class Task3 {
 		String name = sc.nextLine();
 		String email = sc.nextLine();
 		String number = sc.nextLine();
+
+		
 		sc.close();
 	}
 }

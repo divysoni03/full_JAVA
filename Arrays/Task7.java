@@ -32,5 +32,7 @@ public class Task7 {
 			System.out.print(array[i] + ", ");
 		}
 		System.out.println("\b\b\b]");
+
+		sc.close();
 	}
 }

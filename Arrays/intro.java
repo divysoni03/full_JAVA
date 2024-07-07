@@ -1,5 +1,3 @@
-package Arrays;
-
 //garbage collector in java to free the resources that we allocated manually.
 
 public class intro {

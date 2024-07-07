@@ -75,5 +75,6 @@ public class Task1 {
             default :
                 System.out.println("Invalid Input");
         }
+        sc.close();
     }    
 }

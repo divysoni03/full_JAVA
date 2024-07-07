@@ -16,5 +16,6 @@ public class Task2 {
 			sum += array[i];
 		}
 		System.out.print("Sum of array Element is " + sum + ".");
+		sc.close();
 	}
 }

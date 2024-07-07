@@ -29,6 +29,8 @@ public class task8 {
         }
         printArray(arrayTwo);
 
+
+        
         sc.close();
     }
 }

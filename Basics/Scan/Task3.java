@@ -7,9 +7,9 @@ public class Task3 {
 		Scanner sc = new Scanner(System.in);
 		
 		System.out.print("Enter Your Details : ");
-		String name = sc.nextLine();
-		String email = sc.nextLine();
-		String number = sc.nextLine();
+		// String name = sc.nextLine();
+		// String email = sc.nextLine();
+		// String number = sc.nextLine();
 
 		
 		sc.close();

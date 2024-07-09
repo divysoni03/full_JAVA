@@ -20,13 +20,13 @@ public class task8 {
         int[] arrayTwo = new int[size];
 
         for(int i=0;i<arrayOne.length;i++) {
-            System.out.printf("Enter %d'th Value : ",i);
             arrayOne[i] = ((int)(Math.random()*100));
         }
         printArray(arrayOne);
         for(int i=0;i<arrayOne.length;i++) {
             arrayTwo[i] = arrayOne[i];
         }
+        System.out.println();
         printArray(arrayTwo);
 
 

@@ -1,5 +1,3 @@
-package OPPs;
-
 import java.util.Scanner;
 
 class Employee {

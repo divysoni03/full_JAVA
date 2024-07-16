@@ -2,30 +2,30 @@
 
 class Book{
 	private String bookTitle;
-	private String bookAuther;
+	private String bookAuthor;
 	private int bookYear;
 	
 	//constructors
 	public Book() {
 		this.bookTitle = "";
-		this.bookAuther = "";
+		this.bookAuthor = "";
 		this.bookYear = 0;
 	}
-	public Book(String bookTitle,String bookAuther,int bookYear) {
+	public Book(String bookTitle,String bookAuthor,int bookYear) {
 		this.bookTitle = bookTitle;
-		this.bookAuther = bookAuther;
+		this.bookAuthor = bookAuthor;
 		this.bookYear = bookYear;
 	}
 	public Book(Book sampleBook) {
 		this.bookTitle = sampleBook.bookTitle;
-		this.bookAuther = sampleBook.bookAuther;
+		this.bookAuthor = sampleBook.bookAuthor;
 		this.bookYear = sampleBook.bookYear;
 	}
 
 	//methods
 	void displayBook() {
 		System.out.println("Book Title :" + this.bookTitle);
-		System.out.println("Book Auther :" + this.bookAuther);
+		System.out.println("Book Author :" + this.bookAuthor);
 		System.out.println("Book Year :" + this.bookYear);
 	}
 }

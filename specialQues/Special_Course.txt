@@ -1,0 +1,38 @@
+-> 1. Arrays
+Problem Statement: Weather Data Analysis
+You are given a year’s worth of temperature data (in Celsius) for a city, stored in an array. Each element in the array represents the average temperature for one day. Implement a Java program to:
+- Calculate the highest, lowest, and average temperature of the year.
+- Identify the longest streak of consecutive days with temperatures above a given threshold.
+- Generate a new array of temperatures in Fahrenheit.
+
+-> 2. Basics
+Problem Statement: Command Line To-Do List Manager
+Create a command-line to-do list manager in Java. The program should:
+- Allow users to add new tasks with a description and due date.
+- Display all tasks, indicating completed and pending tasks.
+- Allow users to mark tasks as completed.
+- Save the list to a file and load it back when the program starts.
+
+-> 3. Control Statements
+Problem Statement: Automated Vending Machine
+Design a Java program to simulate an automated vending machine. The vending machine should:
+- Display a list of available items with prices.
+- Accept user input for item selection and payment.
+- Dispense the selected item if sufficient payment is made and return change if applicable.
+- Handle cases of insufficient payment and sold-out items gracefully.
+
+-> 4. Data Types
+Problem Statement: E-Commerce Price Calculator
+Write a Java program to calculate the total price for items in an e-commerce cart. The program should:
+- Accept various data types for item attributes, including price (double), quantity (int), and item description (String).
+- Calculate the total price before tax and after applying a fixed sales tax rate.
+- Apply discounts based on promotional codes (if any).
+- Display the final amount to be paid by the customer.
+
+-> 5. OOP Basics
+Problem Statement: Employee Management System
+Develop an Employee Management System using object-oriented principles in Java. The system should:
+- Allow adding, updating, and removing employees.
+- Track employee information such as name, ID, department, salary, and joining date.
+- Implement methods to calculate yearly bonuses based on performance ratings.
+- Generate reports displaying all employees' details, sorted by different criteria (e.g., department, joining date, salary).

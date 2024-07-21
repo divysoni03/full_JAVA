@@ -1,5 +1,3 @@
-package OPPs.Inheritance;
-
 class Food {
     private String name;
 

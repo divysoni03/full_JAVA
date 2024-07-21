@@ -2,6 +2,15 @@
 
 class Student {
     private String studentName;
+    private String[] studentCourse;
+
+    public Student() {
+        this.studentName = "";
+    }
+    public Student(String studentName,String[] studentCourses) {
+        this.studentName = studentName;
+        this.studentCourse = studentCourse;
+    }
 }
 
 public class Task5 {

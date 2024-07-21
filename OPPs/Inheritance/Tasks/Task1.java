@@ -37,6 +37,7 @@ class Car extends Vehicle{
 
 public class Task1 {
     public static void main(String[] args) {
-        Car c1 = new Car("alto 800","maruti Suzuki","120");
+        Car c1 = new Car("alto 800", "maruti suzuki",120);
+        c1.displayInfo();
     }
 }

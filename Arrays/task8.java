@@ -1,7 +1,7 @@
 // 8. Write a Java program to copy an array by iterating the array.
 import java.util.Scanner;
 
-public class task8 {
+public class Task8 {
 
     public static void printArray(int[] array){
         System.out.print("Array : [ ");

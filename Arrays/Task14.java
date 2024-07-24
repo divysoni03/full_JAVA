@@ -15,6 +15,7 @@ public class Task14 {
                 }
             }
         }
-        System.out.println("There are no common values");
+        // System.out.println("There are no common values");
+        sc.close();
     }    
 }

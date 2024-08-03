@@ -1,5 +1,3 @@
-package OPPs.Inheritance;
-
 class Train {
     private String trainNumber;
     private int numberofCoaches;

@@ -56,8 +56,8 @@ class BankAccount {
 
 public class Task15 {
     public static void main(String[] args) {
-        BankAccount account1 = new BankAccount("123456789", "John Doe", 1000.0);
-        BankAccount account2 = new BankAccount("987654321", "Jane Doe", -50.0); // This will trigger the warning and set balance to 0
+        BankAccount account1 = new BankAccount("123456789", "bob", 1000.0);
+        BankAccount account2 = new BankAccount("987654321", "gaga", -50.0);
 
         System.out.println("Account Number: " + account1.getAccountNumber() + ", Account Holder: " + account1.getAccountHolderName() + ", Balance: $" + account1.getAccountBalance());
         System.out.println("Account Number: " + account2.getAccountNumber() + ", Account Holder: " + account2.getAccountHolderName() + ", Balance: $" + account2.getAccountBalance());

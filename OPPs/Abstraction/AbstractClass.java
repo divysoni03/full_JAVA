@@ -16,58 +16,58 @@ Rules for Abstract class:
 */
 
 // abstract class
-abstract class Person {
-    String name;
-    int age;
+// abstract class Person {
+//     String name;
+//     int age;
 
-    abstract void display();    //no body
+//     abstract void display();    //no body
 
-    public Person(String name, int age) {
-        this.name = name;
-        this.age = age;
-    }
-}
+//     public Person(String name, int age) {
+//         this.name = name;
+//         this.age = age;
+//     }
+// }
 
 //concrete class
-class Student extends Person {
-    int rollNo;
+// class Student extends Person {
+//     int rollNo;
 
-    public Student(String name, int age, int rollNo) {
-        super(name, age);
-        this.rollNo = rollNo;
-    }
+//     public Student(String name, int age, int rollNo) {
+//         super(name, age);
+//         this.rollNo = rollNo;
+//     }
 
-    @Override
-    void display() {
-        System.out.println("Name: " + name + "\nAge: " + age + "\nRoll No: " + rollNo);
-    }
-}
+//     @Override
+//     void display() {
+//         System.out.println("Name: " + name + "\nAge: " + age + "\nRoll No: " + rollNo);
+//     }
+// }
 
-public class AbstractClass {
-    public static void main(String[] args) {
-        // Student s = new Student("Saumyya", 19, 419);
-        // s.display();
+// public class AbstractClass {
+//     public static void main(String[] args) {
+//         // Student s = new Student("Saumyya", 19, 419);
+//         // s.display();
 
-        // Person p = new Student("Saumyya", 19, 419);
-        // p.display();
+//         // Person p = new Student("Saumyya", 19, 419);
+//         // p.display();
 
-        // Person p = new Person("Adityaraj", 21) {
-        //     void display() {
-        //         System.out.println("Name: " + name + "\nAge: " + age);
-        //     }
-        // };
+//         // Person p = new Person("Adityaraj", 21) {
+//         //     void display() {
+//         //         System.out.println("Name: " + name + "\nAge: " + age);
+//         //     }
+//         // };
 
-        // p.display();
+//         // p.display();
 
         
-        // Anonymous Class
-        // new Student("Pratham", 20, 23).display();
+//         // Anonymous Class
+//         // new Student("Pratham", 20, 23).display();
 
-        new Person("Kathan", 19) {
-            @Override
-            void display() {
-                System.out.println("My name is " + name + ", and I'm " + age + " years old.");
-            }
-        }.display();
-    }
-}
+//         new Person("Kathan", 19) {
+//             @Override
+//             void display() {
+//                 System.out.println("My name is " + name + ", and I'm " + age + " years old.");
+//             }
+//         }.display();
+//     }
+// }

@@ -13,15 +13,16 @@ class Dog extends Animal {
 public class InstanceOf {
     public static void main(String[] args) {
         // Upcasting
-        Animal myDog = new Dog();   //upcasting
+        Animal myDog = new Dog();   //upcasting (copy of the child)
         // System.out.println(myDog instanceof Animal);
-        // myDog.makeSound();
+        myDog.makeSound(); // copy will only access parent class method
+        // myDog.bark(); // can't access this method
 
         //Downcasting
         Dog d = (Dog) myDog;    //downcasting
-        System.out.println(d instanceof Animal);
+        // System.out.println(d instanceof Animal);
         d.makeSound();
-        d.bark();
+        d.bark(); // can access both methods
     }
 }
 /*

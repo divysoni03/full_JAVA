@@ -34,7 +34,6 @@ Upcasting: Converting a subclass reference to a superclass reference is called u
 
 Downcasting: Converting a superclass reference to a subclass reference is called downcasting.
 
-
 Tasks:
 
 Scenario 1: Online Course Platform

@@ -22,9 +22,30 @@ class Vehicle {
 }
 class Car extends Vehicle{ 
     private String model;
-        
+    public Car(String name, double price, String model) {
+        super(name, price);
+        this.model = model;
+    }
+
+    @Override
+    public void showInfo() {
+        super.showInfo();
+        System.out.println("Vehicle Model : " + this.model);
+    }
 }
-class LuxuryCar{}
+class LuxuryCar extends Vehicle{
+    private String model;
+    public LuxuryCar(String name, double price, String model) {
+        super(name, price);
+        this.model = model;
+    }
+
+    @Override
+    public void showInfo() {
+        super.showInfo();
+        System.out.println("Vehicle Model : " + this.model);
+    }
+}
 
 public class Task10 {
     public static void main(String []args) {

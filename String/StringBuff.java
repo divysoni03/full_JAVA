@@ -1,6 +1,6 @@
 public class StringBuff {
     public static void main(String[] args) {
-        StringBuffer s = new StringBuffer("StringBuffer");
+        StringBuffer s = new StringBuffer("StringBuffer"); //Thread safe
 
         // System.out.println(s.hashCode());
         // System.out.println(s.length());

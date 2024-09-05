@@ -25,6 +25,14 @@ class BankAccount {
         balance -= amount;
         System.out.println("Withdrawal successful! New balance: " + balance);
     }
+
+    public void deposit(double amount) throws InsufficientFundsException {
+        if(amount <= 0) {
+            throw new InsufficientFundsException("Attempted to deposit " + amount + " can't deposit zero or minus value.");
+        }
+        balance += amount;
+        System.out.println("Deposit successful ! New balance: " + balance);
+    }
 }
 
 public class CustomException {
@@ -33,10 +41,16 @@ public class CustomException {
         
         BankAccount account = new BankAccount(100);
         try {
-            account.withdraw(90);
+            account.withdraw(190);
         } catch (Exception e) {
             // e.printStackTrace();
             // System.out.println(e.getMessage());
+            System.out.println(e);
+        }
+
+        try {
+            account.deposit(0);
+        }catch (Exception e) {
             System.out.println(e);
         }
 

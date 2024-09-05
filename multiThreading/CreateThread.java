@@ -7,14 +7,14 @@ class Way1 extends Thread {
     }
 }
 
-class Way2 implements Runnable  {
+class Way2 implements Runnable  { //parent class of the Thread
     @Override
     public void run() {
         System.out.println(Thread.currentThread().getName());
         System.out.println("Thread(Way2) is running...");
     }
 
-    public String getState() {
+    public String getState() { //it is parent class so we have to borrow the method from the child
         return Thread.currentThread().getState().toString();
     }
 }

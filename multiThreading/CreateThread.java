@@ -41,8 +41,8 @@ public class CreateThread {
             };
         };
 
-        System.out.println(t.getState());
+        System.out.println("1." + t.getState());
         t.start();
-        System.out.println(t.getState());
+        System.out.println("2." + t.getState());
     }
 }
